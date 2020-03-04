@@ -11,7 +11,7 @@ app.use(express.json())
 
 mongoose.set('useCreateIndex', true);
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost:27017/book-todo',
+    process.env.MONGODB_URI || 'mongodb+srv://zmcentire:MomentoM0r%212020@cluster0-gnby9.mongodb.net/test?retryWrites=true&w=majority/booktodo',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
